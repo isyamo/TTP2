@@ -1,0 +1,14 @@
+Questions de réflexion
+
+   1) Pour n = 1000, un algorithme en O(n^2) ne  fait qu'un million de calculs.
+   Un ordinateur traite des centaines de millions d'opérations par seconde, donc ce travail lui prend moins d'une milliseconde
+ 
+   2) Oui, il existe un algorithme en O(n \log n) pour la LIS.Au lieu de vérifier tous les éléments un par un avec une double boucle, il utilise la recherche dichotomique.
+
+   3) # Avec '<' l'algorithme exige des nombres strictement croissants, donc sans doublons.
+
+      # Avec '<=' , il accepte les nombres égaux à la suite.
+
+   4) # Pour long et double : il suffit de changer le type du tableau dans la méthode, le code reste identique.
+
+      # Pour des objets : on ne peut pas utiliser des symbole de comparaison. On utilise la méthode compareTo : t[j].compareTo(t[i]) < 0.

@@ -1,0 +1,6 @@
+Questions de réflexion
+
+1) O(n²) = boucle dans une boucle. O(n) = boucles l'une après l'autre.
+2) C'est le plus grand à gauche. S'il est <= t, tous les autres le sont.
+3) C'est le plus petit à droite. S'il est >= t, tous les autres le sont aussi.
+4) < et > strict : on refuse les doublons,pas de pivot.≤ et ≥ large : on accepte les doublons, les deux sont pivots.

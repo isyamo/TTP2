@@ -1,0 +1,4 @@
+1) On ne parcourt pas toute la matrice, on ne parcourt que 2 diagonales. Il y a n éléments par diagonale  O(n).
+2) Le code ne fonctionne pas car une matrice non carrée provoque un dépassement d'indice ArrayIndexOutOfBoundsException.
+3)On supprime la deuxième somme et on fait somme += matrice[i][i] seulement. 
+4)On lance une boucle pour chaque décalage k et on somme matrice[i][i+k].

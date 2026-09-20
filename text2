@@ -1,0 +1,6 @@
+Questions de réflexion
+
+1) Parce que dans un carré magique tout doit être égal. Si le reste est égal à la 1ère ligne, c'est bon
+2)Juste les sommes. Pour vérifier 1..9 distincts, il faut ajouter un tableau boolean[10] pour voir si un nombre est déjà vu ou hors 1-9.
+3)Pour n>3 : utiliser n au lieu de 3 dans les boucles.
+4)O(n²) car on parcourt toute la matrice.

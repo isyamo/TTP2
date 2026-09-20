@@ -1,0 +1,5 @@
+1) Chaque valeur vue coche sa case. A la fin, les cases non cochées = manquants.
+2) Il faut les ignorer
+3) Tableau de taille b-a+1 et on coche à l'indice val - a.
+4) Elle économise de la mémoire car elle n'utilise pas de 2ème tableau.
+   Risque : elle modifie le tableau de départ et le code est plus compliqué.
