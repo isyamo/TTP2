@@ -48,9 +48,14 @@ public class matriceS {
     }
 
     public static void main(String[] args) {
-        int n = 4; 
+         int n = 2; 
+        int n1=5;
         int[][] matrice = construireSpirale(n);
+        int[][] matrice1 = construireSpirale(n1);
+        System.out.println("Matrice spirale de taille " + n + " :" );
         afficherMatrice(matrice);
+        System.out.println("Matrice spirale de taille " + n1 + " :");
+        afficherMatrice(matrice1);
     }
 }
 
