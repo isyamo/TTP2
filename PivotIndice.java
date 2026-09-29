@@ -19,7 +19,11 @@ public class PivotIndice {
     System.out.println();
 }
 public static void main(String[] args){
-        int[] t = {1, 2, 3, 7};
+         int[] t = {1, 2, 3, 7};
+        int[] t1 = {2, 4, 3, 5, 6};
+        int[] t2 = {1, 4, 3, 7};
         afficherPivotsAvecIndices(t);
+        afficherPivotsAvecIndices(t1); 
+        afficherPivotsAvecIndices(t2);
     }
 }
