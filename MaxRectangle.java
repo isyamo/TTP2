@@ -29,12 +29,22 @@ public class MaxRectangle  {
     }
 
     public static void main(String[] args) {
-        int[][] m = {
+         int[][] m = {
             {1, 0, 1},
             {1, 1, 1},
             {0, 1, 1}
         };
+
+        int[][] m1 = {
+            {1, 0, 1, 0, 0},
+            {1, 0, 1, 1, 1},
+            {1, 1, 1, 1, 1},
+            {1, 0, 0, 1, 0}
+        };
+        System.out.println("aire maximale du rectangle dans la matrice 1:");
         System.out.println(maxRectangle(m)); // 4
+        System.out.println("aire maximale du rectangle dans la matrice 2:");
+        System.out.println(maxRectangle(m1)); // 6
     }
 }
 
